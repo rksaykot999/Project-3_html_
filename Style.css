@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-bar{
+    display: flex;
+    align-items: center;
+    position:fixed;
+    background-color:#ffffff ;
+    width: 100vw;
+    justify-content:;
+}
+.navigation-bar{
+    display: flex;
+    padding-left: 800px;
+}
+.navigation-bar li{
+    list-style-type: none;
+    padding: 20px;
+}
+.navigation-bar a{
+    text-decoration: none;
+    color: #000;
+}
+.navigation-bar a:hover{
+    text-decoration: none;
+    color: #24ade3;
+    transition:.2s;
+}
+.section-2{
+    display: flex;
+    align-items: center;
+    padding:100px 200px;
+    margin: 00px 450px;
+}
+.discover-btn{
+    background-color:#445bee;
+    height: 40px;
+    width: 150px;
+    border-style: none;
+    transition: .2s;
+}
+.discover-btn:hover{
+    background-color: #0c29e1;
+    box-shadow:5px 10px 30px rgba(130,147,255, 0.5);
+}
+.discover-btn a{
+    text-decoration: none;
+    color: white;
+}
+.discover-btn-2{
+    background-color:#8393ff;
+    height: 50px;
+    width: 220px;
+    font-size: 20px;
+    border-style: none;
+    transition:0.2s;
+}
+.discover-btn-2:hover{
+    box-shadow:5px 10px 30px rgba(130,147,255, 0.5);
+}
+.discover-btn-2 a{
+    text-decoration: none;
+    color: white;
+}
+.line-1{
+    display: flex;
+}
+.skill:hover{
+    background-color: #8293ff;
+    color: wh;
+}
+.line-2{
+    display: flex;
+    padding-top: 40px;
+}
